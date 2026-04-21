@@ -18,8 +18,12 @@ public class Teacher extends Person {
                 return false; // sudah ada
             }
         }
-        courses[numCourses] = course;
-        numCourses++;
+        if (numCourses < courses.length) {
+            courses[numCourses] = course;
+            numCourses++;
+        } else {
+            System.out.println("Mata kuliah sudah penuh!");
+        }
         return true;
     }
 

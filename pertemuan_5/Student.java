@@ -14,10 +14,15 @@ public class Student extends Person {
 
     // Method untuk menambahkan mata kuliah beserta nilainya
     public void addCourseGrade(String course, int grade) {
-        courses[numCourses] = course;
-        grades[numCourses] = grade;
-        numCourses++;
+        if (numCourses < courses.length) {
+            courses[numCourses] = course;
+            grades[numCourses] = grade;
+            numCourses++;
+        } else {
+            System.out.println("Mata kuliah sudah penuh!");
+        }
     }
+
 
     // Menampilkan semua nilai yang dimiliki mahasiswa
     public void printGrades() {
