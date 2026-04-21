@@ -127,31 +127,25 @@ public class Main {
         
         //Menampilkan jumlah grade dan nama mahasiswa sesuai dengan ketentuan soal 
         if (gradeA == 0) {
-            System.out.println("Tidak ada mahasiswa yang memiliki grade A");
         }else {
             System.out.println("Jumlah Mahasiswa dengan Nilai A = " + gradeA + " yaitu " + namaA);
         }
-
         if (gradeB == 0) {
-            System.out.println("Tidak ada mahasiswa yang memiliki grade B");
         }else {
             System.out.println("Jumlah Mahasiswa dengan Nilai B = " + gradeB + " yaitu " + namaB);
         }
         
         if (gradeC == 0) {
-            System.out.println("Tidak ada mahasiswa yang memiliki grade C");
         } else {
             System.out.println("Jumlah Mahasiswa dengan Nilai C = " + gradeC + " yaitu " + namaC);
         }
         
         if (gradeD == 0) {
-            System.out.println("Tidak ada mahasiswa yang memiliki grade D");
         } else {
             System.out.println("Jumlah Mahasiswa dengan Nilai D = " + gradeD + " yaitu " + namaD);
         }
         
         if (gradeE == 0) {
-            System.out.println("Tidak ada mahasiswa yang memiliki grade E");
         } else {
             System.out.println("Jumlah Mahasiswa dengan Nilai E = " + gradeE + " yaitu " + namaE);
         }
