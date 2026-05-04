@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class Buku {
+class Buku{
     String judul;
     String penulis;
 
@@ -14,7 +14,7 @@ class Buku {
     }
 }
 
-public class Perpustakaan {
+public class Perpustakaan{
     public static void main(String[] args) {
 
         ArrayList<Buku> daftarBuku = new ArrayList<>();
